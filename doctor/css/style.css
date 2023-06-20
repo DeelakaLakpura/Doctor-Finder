@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+ background-image: url("https://firebasestorage.googleapis.com/v0/b/lms-02-7f92a.appspot.com/o/piron-guillaume-y6aFH6ZhI7s-unsplash-min.jpg?alt=media&token=fb72c02d-4c37-4064-8c75-68aa5337cfd0");
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #52b69a;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  width: 100%;
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #52b69a;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #52b69a;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #52b69a;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+footer{
+  position:absolute;
+  bottom: 50;
+  left: 0;
+  right: 0;
+
+  background: #52b69a;
+  opacity: 50%;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+
+  color: black;
+}
+.footer-content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
